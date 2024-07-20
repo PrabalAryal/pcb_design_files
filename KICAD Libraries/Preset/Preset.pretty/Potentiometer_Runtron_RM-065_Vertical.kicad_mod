@@ -1,0 +1,461 @@
+(footprint "Potentiometer_Runtron_RM-065_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Trimmer, RM-065 https://components101.com/sites/default/files/component_datasheet/Preset%20Potentiometer%20%28Trimpot%29.pdf")
+	(tags "Potentiometer Trimmer RM-065")
+	(property "Reference" "RV4"
+		(at 2.6 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "fa7369b0-9dae-4cd7-a973-ad94c8941733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Potentiometer"
+		(at 2.6 7 180)
+		(layer "F.Fab")
+		(uuid "42df4554-d931-42e7-90f4-a427e762b926")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfc61696-1c73-4974-9cde-d7c0435b62ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f11e05c4-d5f0-4580-acbe-764448a59fa6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3324993b-4626-4ddd-8268-11794196e626")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.81 -1.21)
+		(end -0.81 -0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4bd3d79-1569-48ce-9edd-f7093c77dd79")
+	)
+	(fp_line
+		(start -0.81 4.5)
+		(end -0.81 0.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fc96afa-5a43-4f38-8a36-2c743b89786e")
+	)
+	(fp_line
+		(start -0.71 -1.41)
+		(end -0.71 -1.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b22c2a7-0a65-4f0b-90d5-ddaaa90694ef")
+	)
+	(fp_line
+		(start -0.71 -1.41)
+		(end 0.71 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdb2cdae-0117-42e0-92d2-ee7a6498ca35")
+	)
+	(fp_line
+		(start -0.71 -1.21)
+		(end -0.81 -1.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e08ca23-6b23-4bd8-a4a6-23f3be610580")
+	)
+	(fp_line
+		(start 0.71 -1.21)
+		(end 0.71 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79c8880e-bade-4579-9956-5cdb01e7840c")
+	)
+	(fp_line
+		(start 0.71 -1.21)
+		(end 4.29 -1.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b395aa44-d38f-4c27-8021-a27295140fae")
+	)
+	(fp_line
+		(start 1.99 5.81)
+		(end 0.5 5.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56c69bb0-4806-4271-b32d-059c111b9479")
+	)
+	(fp_line
+		(start 4.29 -1.41)
+		(end 5.71 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56cad29a-5cde-49b1-b6f8-94c825b240e6")
+	)
+	(fp_line
+		(start 4.29 -1.21)
+		(end 4.29 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ebf6540-8c6a-4d92-844c-41f41ac738e2")
+	)
+	(fp_line
+		(start 4.5 5.81)
+		(end 3.01 5.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7800448-0e4f-4ff8-8f8c-3130ea1d9e33")
+	)
+	(fp_line
+		(start 5.71 -1.41)
+		(end 5.71 -1.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7179eb40-2baf-4cd3-8729-1bb5f5a48467")
+	)
+	(fp_line
+		(start 5.71 -1.21)
+		(end 5.81 -1.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3396bcc-3b38-4ff6-b26b-e39902f0a197")
+	)
+	(fp_line
+		(start 5.81 -1.21)
+		(end 5.81 -0.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "122143eb-1f6c-4b84-8e2f-8f8e1829670c")
+	)
+	(fp_line
+		(start 5.81 0.52)
+		(end 5.81 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4877a6a-150e-4e88-b230-c0b362b5e34b")
+	)
+	(fp_arc
+		(start 0.5 5.81)
+		(mid -0.42631 5.42631)
+		(end -0.81 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "730e2374-90ab-4b4c-9660-7f20a269a8da")
+	)
+	(fp_arc
+		(start 5.81 4.5)
+		(mid 5.42631 5.42631)
+		(end 4.5 5.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e1b5af9-489f-465c-8365-1c0fc219b2d9")
+	)
+	(fp_line
+		(start -1.03 -1.55)
+		(end -1.03 6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0b8dbdc-7ea4-4000-b967-41d095875cd5")
+	)
+	(fp_line
+		(start -1.03 -1.55)
+		(end 6.03 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5506010a-c81b-440f-a023-eb903224f214")
+	)
+	(fp_line
+		(start 6.03 6.03)
+		(end -1.03 6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c1a0464-c9f1-41be-ba8d-aa8a21b30254")
+	)
+	(fp_line
+		(start 6.03 6.03)
+		(end 6.03 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "feb4467e-43fd-49f5-823e-e921e2c31c61")
+	)
+	(fp_line
+		(start -0.7 4.5)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e1c0810-1504-4ec1-80b1-b1c25011e8df")
+	)
+	(fp_line
+		(start -0.6 -1.3)
+		(end 0.6 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16f7636a-2fe4-4265-90d0-dc76d1696cee")
+	)
+	(fp_line
+		(start -0.6 -1.1)
+		(end -0.6 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23550224-a6d8-42ef-8c99-0cb441d4e8b4")
+	)
+	(fp_line
+		(start 0.5 5.7)
+		(end 4.5 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6244bb58-45cf-47b6-a269-6f819a3efe20")
+	)
+	(fp_line
+		(start 0.6 -1.3)
+		(end 0.6 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04b09cd1-1e12-4992-8fad-c170cba44119")
+	)
+	(fp_line
+		(start 4.4 -1.3)
+		(end 4.4 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "704ea9fe-507d-4a25-bc5f-212769fc6a15")
+	)
+	(fp_line
+		(start 5.6 -1.3)
+		(end 4.41 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e680b57-4115-4d16-b7d8-e5f580c48c73")
+	)
+	(fp_line
+		(start 5.6 -1.1)
+		(end 5.6 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b379563-bae6-4785-89e2-82f2a36e228c")
+	)
+	(fp_line
+		(start 5.7 -1.1)
+		(end -0.7 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd4df7d2-6a5a-465a-91e3-409f27b4d620")
+	)
+	(fp_line
+		(start 5.7 4.5)
+		(end 5.7 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3a1f884-61ad-4e61-b23c-d6d768fbc5d4")
+	)
+	(fp_arc
+		(start 0.5 5.7)
+		(mid -0.348528 5.348528)
+		(end -0.7 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af9c1035-4bf4-4665-a6b5-f9900750b663")
+	)
+	(fp_arc
+		(start 5.7 4.5)
+		(mid 5.348528 5.348528)
+		(end 4.5 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4de711bf-52bc-4031-a994-e299d81c1111")
+	)
+	(fp_circle
+		(center 2.5 2.5)
+		(end 5.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "64fae440-3ff1-4b5b-b7fc-9c38c3e30e1f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 2.5 180)
+		(layer "F.Fab")
+		(uuid "c268200a-0c1b-4c9f-ad93-11a8ac61c62c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.58)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1dfb1e9a-3e55-4319-85c9-c5c621c5a65a")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 5)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae71e86a-5e9e-40b8-81d1-dfba06d5708e")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9ea6c0b-9154-44da-a67e-b24f0e673978")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Runtron_RM-065_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
